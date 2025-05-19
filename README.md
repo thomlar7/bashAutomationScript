@@ -39,9 +39,9 @@ A flexible and fully automated Bash script for setting up Docker and Docker Comp
 ## 🧪 Example Usage
 
 ```bash
-chmod +x ./install.sh
+chmod +x ./myBashScript.sh
 
-./install.sh \
+./myBashScript.sh \
   --users "john jane" \
   --groups "devs testers" \
   --mtu 1442 \
