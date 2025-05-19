@@ -46,4 +46,24 @@ chmod +x ./myBashScript.sh
   --groups "devs testers" \
   --mtu 1442 \
   --verbose
+```
+
+🧰 Script Options
+Option	Description
+--users	Space-separated list of usernames to create
+--groups	Space-separated list of groups to create
+--mtu	Custom MTU value for Docker daemon
+--verbose -v	Enable debug/verbose output
+
+🛑 Requirements
+A Linux system (or WSL)
+
+sudo access
+
+Internet connection (to install Docker and dependencies)
+
+📌 Notes
+The script is safe to re-run; it checks for existing users, groups, and Docker status.
+
+WSL users will get a warning due to possible limitations with systemctl and background services.
 
