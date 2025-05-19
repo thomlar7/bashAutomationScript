@@ -48,12 +48,15 @@ chmod +x ./myBashScript.sh
   --verbose
 ```
 
-🧰 Script Options
-Option	Description
---users	Space-separated list of usernames to create
---groups	Space-separated list of groups to create
---mtu	Custom MTU value for Docker daemon
---verbose -v	Enable debug/verbose output
+## 🧰 Script Options
+
+| Option        | Description                                 |
+|---------------|---------------------------------------------|
+| `--users`     | Space-separated list of usernames to create |
+| `--groups`    | Space-separated list of groups to create    |
+| `--mtu`       | Custom MTU value for Docker daemon          |
+| `--verbose`, `-v` | Enable debug/verbose output             |
+
 
 🛑 Requirements
 A Linux system (or WSL)
